@@ -70,10 +70,23 @@ body {
 	opacity: 0.5;
 }
 
-#cc {
+.circle-container {
 	position:relative;
 	width: 50vh;
 	height: 50vh;
 	border-radius: 50%;
 	overflow: hidden;
+}
+
+.circle-container:hover #two {
+	transform: translate(0px, 75px);
+}
+.circle-container:hover #three {
+	transform: translate(0px, -75px);
+}
+.circle-container:hover #four {
+	transform: translate(75px, 0px);
+}
+.circle-container:hover #five {
+	transform: translate(-75px, 0px);
 }
